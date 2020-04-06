@@ -60,6 +60,7 @@ lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so
 lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so
 lib/libmmcamera_wavelet_lib.so:vendor/lib/libmmcamera_wavelet_lib.so
 lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so
+lib/libhdcp2.so:vendor/lib/libhdcp2.so
 lib/hw/camera.msm8226.so:vendor/lib/hw/camera.vendor.msm8226.so
 vendor/lib/libactuator_ak7345_camcorder.so
 vendor/lib/libactuator_ak7345_camera.so
@@ -68,6 +69,8 @@ vendor/lib/libactuator_dw9804_camera.so
 vendor/lib/libHevcSwDecoder.so
 vendor/lib/libjpegehw.so
 vendor/lib/libqomx_core.so
+vendor/lib/libmm-abl.so
+vendor/lib/libmm-abl-oem.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_iface_modules.so
@@ -85,11 +88,25 @@ vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_s5k4h5yb.so
 vendor/lib/libmmcamera_s5k6a3yx.so
 vendor/lib/libmm-color-convertor.so
+vendor/lib/libmm-hdcpmgr.so
+vendor/lib/libmmhttpstack.so
+vendor/lib/libmmiipstreammmihttp.so
 vendor/lib/libmmipl.so
+vendor/lib/libmmipstreamaal.so
+vendor/lib/libmmipstreamnetwork.so
+vendor/lib/libmmipstreamsourcehttp.so
+vendor/lib/libmmipstreamutils.so
 vendor/lib/libmmjpeg.so
+vendor/lib/libmmosal.so
+vendor/lib/libmmparser.so
 vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmQSM.so
+vendor/lib/libmmQTA.so
+vendor/lib/libmmrtpdecoder.so
+vendor/lib/libmmrtpencoder.so
+vendor/lib/libmmwfdinterface.so
+vendor/lib/libmmwfdsinkinterface.so
 vendor/lib/liboemcamera.so
-vendor/lib/libOmxMux.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libjpegdhw.so
@@ -161,9 +178,9 @@ bin/radish:vendor/bin/radish|5c54cb3d5c3472b6bb8f535817eeb55852b34ef0
 vendor/lib/libOmxAacDec.so|9d3a2a498fa740be2a32c336a2dc1a911decd50b
 vendor/lib/libOmxAmrwbplusDec.so|54ebb32cf1f71ca1fe8824176c8c4154a9ee120f
 vendor/lib/libOmxEvrcDec.so|3c31f3d7b420db0076dfb35eb4cbc3efa5160ab0
+vendor/lib/libOmxMux.so
 vendor/lib/libOmxQcelp13Dec.so|05392036cf8981a260b91991c306407b02afdcb1
 vendor/lib/libOmxWmaDec.so|1b96f549a54660218c1459cf7133d2a5632ca657
-vendor/lib/libmmosal.so|20af45456f1f588cc97e5278b3d273c8070eab2a
 
 # Perf - Pinned to Samsung Galaxy S5 Mini G800HXXU1CRJ1_G800HXEO1CRJ1
 vendor/lib/libqc-opt.so|86b2577d54bafa497601ff6b6c4159b210e55fae
@@ -200,6 +217,7 @@ lib/libatparser.so:vendor/lib/libatparser.so
 lib/libcordon.so:vendor/lib/libcordon.so
 lib/libfactoryutil.so:vendor/lib/libfactoryutil.so
 lib/libomission_avoidance.so:vendor/lib/libomission_avoidance.so
+etc/plmn_se13.bin
 
 # Radio - Pinned to G900FXXS1BPCL_G900FOXA1BOJ1_BTU
 bin/efsks:vendor/bin/efsks|2c366ac7ab878068c77e5598c411a48cf47b056a
@@ -220,6 +238,9 @@ lib/libsec-ril.so:vendor/lib/libsec-ril.so|584d767135810394577caca865660638f348c
 lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so|a7d7c966d9545f5e14cd0f5140a31d651c6f1b26
 
 # Sensors
+etc/alp_cal.dat
+etc/sensors.dat
+etc/param.dat
 lib/hw/sensors.msm8226.so:vendor/lib/hw/sensors.vendor.msm8226.so
 lib/libyasalgo.so:vendor/lib/libyasalgo.so
 lib/libacdapi_clb.so:vendor/lib/libacdapi_clb.so
